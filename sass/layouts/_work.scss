@@ -9,13 +9,15 @@
     letter-spacing: 0.03em;
 }
 
-.work-list>li>img {
-    display: block;
-}
+
 
 .work-list {
     display: flex;
     justify-content: space-between;
+
+    &>li>img {
+            display: block;
+        }
 }
 
 .work-top-wrap {

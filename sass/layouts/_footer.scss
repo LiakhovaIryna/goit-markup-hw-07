@@ -7,13 +7,11 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-}
-
-footer>.container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-
+    &>.container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
 }
 
 .footer-container {
@@ -46,20 +44,24 @@ footer>.container {
     color: #ffffff;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-address>a {
-    display: block;
-    margin-bottom: 9px;
-}
+    &>a {
+        display: block;
+        margin-bottom: 9px;
+    }
 
-.adress:hover,
-.adress:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
 }
 
 .footer-list {
     color: rgba(255, 255, 255, 0.6);
+
+    &>li:not(:nth-last-child(-n + 1)) {
+            margin-bottom: 6px;
+        }
 }
 
 .footer-item {
@@ -68,27 +70,41 @@ address>a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-list>li:not(:nth-last-child(-n + 1)) {
-    margin-bottom: 6px;
-}
-
-.footer-item:hover,
-.footer-item:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
 }
 
 .footer-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: rgba(255, 255, 255, 0.1);
-}
 
-.footer-soc-icon {
-    fill: #ffffff;
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
 .subscription-field {
     width: 570px;
+}
+
+.footer-soc-icon {
+    fill: rgba(175, 177, 184, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .footer-soc-link:hover &,
+    .footer-soc-link:focus & {
+        fill: #ffffff;
+    }
 }
 
 .subscription-title {
@@ -119,14 +135,14 @@ address>a {
     border-radius: 4px;
     background-color: transparent;
     cursor: pointer;
-}
 
-.subscription-input::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25x;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25x;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+        }
 }
 
 .subscription-submit {
