@@ -219,8 +219,8 @@ a > span {
 }
 
 .feature__card {
-  -ms-flex-preferred-size: calc(25% - 30px);
-      flex-basis: calc(25% - 30px);
+  -ms-flex-preferred-size: calc(25% - 22.5px);
+      flex-basis: calc(25% - 22.5px);
 }
 
 .feature__icon {
@@ -504,8 +504,6 @@ a > span {
   text-decoration: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.adress > a {
   display: block;
   margin-bottom: 9px;
 }
@@ -558,12 +556,9 @@ a > span {
 }
 
 .footer-soc-icon {
-  fill: rgb(175, 177, 184);
+  fill: #ffffff;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-soc-link:hover .footer-soc-icon, .footer-soc-link:focus .footer-soc-icon {
-  fill: #ffffff;
 }
 
 .subscription-title {
