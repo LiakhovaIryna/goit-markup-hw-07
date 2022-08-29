@@ -3,10 +3,8 @@
     padding-bottom: 60px;
 
     background-color: var(--secondary-background-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(400, 14px, 1.71);
+    
     &>.container {
         display: flex;
         align-items: baseline;
@@ -25,10 +23,7 @@
     margin-top: 0;
     margin-bottom: 20px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 1.14);
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -111,10 +106,7 @@
     margin: 0;
     margin-bottom: 20px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 1.14);
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -137,10 +129,7 @@
     cursor: pointer;
 
     &::placeholder {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.25x;
-            letter-spacing: 0.03em;
+            @include font(400, 16px, 1.25);
             color: rgba(255, 255, 255, 0.6);
         }
 }
@@ -153,10 +142,8 @@
     gap: 10px;
     width: 200px;
     height: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88%;
-    letter-spacing: 0.06em;
+
+    @include font(700, 16px, 1.88, 0.06em);
     background-color: var(--accent-color);
     color: #ffffff;
     border-radius: 4px;

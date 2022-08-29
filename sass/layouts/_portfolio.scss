@@ -49,11 +49,8 @@ li.gallery {
     border: transparent;
 
     font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+    @include font(500, 16px, 1.62);
     text-align: center;
-    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
@@ -82,11 +79,8 @@ li.list-btn:not(:nth-last-child(-n + 1)) {
     margin: 0;
     margin-bottom: 4px;
 
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
+    @include font(700, 18px, 2, 0.06em);
+    }
 
 .gallery-link {
     display: block;
@@ -117,10 +111,7 @@ li.list-btn:not(:nth-last-child(-n + 1)) {
     padding-right: 10px;
     padding-left: 38px;
 
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
+    @include font(400, 18px, 1.56);
     color: #ffffff;
     background: rgba(33, 150, 243, 0.9);
     overflow: auto;
@@ -152,9 +143,6 @@ li.list-btn:not(:nth-last-child(-n + 1)) {
     margin: 0;
     padding-top: 0;
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+    @include font(400, 16px, 1.88);
     color: #757575;
 }

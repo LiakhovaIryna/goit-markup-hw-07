@@ -1,15 +1,12 @@
 .team {
     background-color: #f5f4fa;
-    letter-spacing: 0.03em;
-}
+    }
 
 .team-title {
     margin: 0;
     margin-bottom: 50px;
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700, 36px, 1.17);
     text-align: center;
 }
 
@@ -39,9 +36,7 @@
     margin: 0;
     margin-bottom: 10px;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(500, 16px, 1.19);
     text-align: center;
 }
 

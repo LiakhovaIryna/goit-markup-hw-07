@@ -148,11 +148,11 @@ a > span {
 .hero-title {
   margin: 0;
   margin-bottom: 30px;
-  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -287,15 +287,14 @@ section.features {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .team {
   background-color: #f5f4fa;
-  letter-spacing: 0.03em;
 }
 
 .team-title {
@@ -304,6 +303,7 @@ section.features {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -337,6 +337,7 @@ section.features {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -587,35 +588,35 @@ section.features {
 .subscription-input::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.25x;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-input::-moz-placeholder {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.25x;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-input:-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.25x;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-input::-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.25x;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-input::placeholder {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.25x;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -636,7 +637,7 @@ section.features {
   height: 50px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88%;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
@@ -699,8 +700,8 @@ li.gallery:not(:nth-last-child(-n+3)) {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-decoration: none;
   text-transform: capitalize;
   cursor: pointer;
@@ -878,8 +879,8 @@ button.btn-modal {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
 }
 

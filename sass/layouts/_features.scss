@@ -50,9 +50,7 @@ section.features {
     margin-bottom: 10px;
     margin-top: 30px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(700, 14px, 1.14, null);
     text-transform: uppercase;
 }
 
@@ -60,8 +58,6 @@ section.features {
     margin: 0;
 
     color: var(--secondary-title-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-}
+    @include font(400, 14px, 1.71, null);
+    }
 
