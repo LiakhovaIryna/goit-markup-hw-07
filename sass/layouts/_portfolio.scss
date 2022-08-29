@@ -1,6 +1,7 @@
 .portfolio {
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
 
     &>h1 {
             position: absolute;
@@ -14,9 +15,10 @@
             clip: rect(0 0 0 0);
             overflow: hidden;
         }
-    header.header & {
-            border-bottom: 1px solid rgba(236, 236, 236, 1);
-        }
+    }
+
+.header--bordered {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .portfolio-list {

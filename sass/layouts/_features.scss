@@ -1,8 +1,8 @@
-section.features {
+.features {
     padding-bottom: 0;
 }
 
-.feature-title,
+.feature__title,
 .checkbox {
     position: absolute;
     width: 1px;
@@ -16,7 +16,7 @@ section.features {
     overflow: hidden;
 }
 
-.feature-list {
+.feature__list {
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -25,17 +25,17 @@ section.features {
     letter-spacing: 0.03em;
 }
 
-.list-item {
+.feature__card {
     flex-basis: calc(100% / 4 - 30px);
 }
 
-.feature-icon {
+.feature__icon {
     width: 70px;
     height: 70px;
     fill: #000000;
 }
 
-.features-icon {
+.icon-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ section.features {
     border-radius: 4px;
 }
 
-.feature-item {
+.feature__item {
     margin: 0;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -54,7 +54,7 @@ section.features {
     text-transform: uppercase;
 }
 
-.feature-text {
+.feature__text {
     margin: 0;
 
     color: var(--secondary-title-color);
